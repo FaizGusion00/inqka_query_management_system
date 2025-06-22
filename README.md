@@ -140,7 +140,9 @@ System2/
 Developed by:
 
 Muhammad Faiz bin Nasir (2021172523)
+
 Iskandar Zulkarnain bin Yusof (2021119895)
+
 For: InQKA UiTM Shah Alam
 
 ---
