@@ -41,44 +41,6 @@ The **PAI's InQKA UiTM Query Management System** is a web-based application desi
   - Chart.js (data visualization)
   - Summernote (rich text editor)
 
-## 🚀 Installation & Setup
-
-### Prerequisites
-- **Web Server**: Apache/Nginx
-- **PHP**: Version 7.4 or higher
-- **Database**: MySQL 5.7+ or MariaDB
-- **Browser**: Modern web browser with JavaScript enabled
-
-### Installation Steps
-
-1. **Clone/Download the Project**
-   ```bash
-   git clone [repository-url]
-   cd System2
-   ```
-
-2. **Database Setup**
-   - Create a new MySQL database
-   - Import the provided SQL file: `iqa_query.sql`
-   - Update database credentials in configuration files
-
-3. **Configuration**
-   - Edit `config.php` and `dbcon.php` with your database credentials:
-   ```php
-   define("DB_SERVER", "your_host");
-   define("DB_USERNAME", "your_username");
-   define("DB_PASSWORD", "your_password");
-   define("DB_NAME", "your_database_name");
-   ```
-
-4. **File Permissions**
-   - Ensure web server has read/write permissions to the project directory
-   - Set appropriate permissions for upload directories (if any)
-
-5. **Web Server Configuration**
-   - Point your web server document root to the project directory
-   - Ensure PHP extensions are enabled: mysqli, session, etc.
-
 ## 📱 Usage Guide
 
 ### For Regular Users:
@@ -105,7 +67,7 @@ The **PAI's InQKA UiTM Query Management System** is a web-based application desi
 ### For Administrators:
 
 1. **Admin Login**
-   - Use admin credentials (username: `InQKA_UiTM`)
+   - Use admin credentials 
    - Access admin dashboard
 
 2. **Managing Queries**
@@ -165,41 +127,6 @@ System2/
 - **Rich Text Support**: Enhanced text formatting for query responses
 - **Tooltip Support**: Helpful tooltips for better user experience
 
-## 📊 Included UiTM Locations
-
-The system includes comprehensive coverage of UiTM campuses and faculties:
-
-### Campuses (29 locations):
-- **Perak**: Seri Iskandar, Tapah
-- **Selangor**: Dengkil, Sungai Buloh, Puncak Alam, Puncak Perdana
-- **Pahang**: Jengka, Raub
-- **Kelantan**: Machang, Kota Bharu
-- **Johor**: Segamat, Pasir Gudang
-- **Kedah**: Sungai Petani
-- **Melaka**: Alor Gajah, Bandaraya Melaka, Jasin
-- **Negeri Sembilan**: Kuala Pilah, Seremban 3, Rembau
-- **Pulau Pinang**: Bertam, Permatang Pauh
-- **Sarawak**: Samarahan, Mukah
-- **Perlis**: Arau
-- **Sabah**: Kota Kinabalu, Tawau
-- **Terengganu**: Dungun, Bukit Besi, Kuala Terengganu
-
-### Faculties & Institutes (24+ faculties):
-- Including major faculties like Engineering, Medicine, Dentistry, Pharmacy, Business, Computing, and specialized institutes
-
-## 🛠️ Maintenance & Updates
-
-### Regular Maintenance:
-- **Database Backup**: Regular backups of query data
-- **Log Monitoring**: Check error logs for issues
-- **Security Updates**: Keep PHP and dependencies updated
-- **Performance Monitoring**: Monitor response times and database performance
-
-### Adding New Features:
-- Follow existing code structure and naming conventions
-- Test thoroughly before deployment
-- Update documentation as needed
-
 ## 🤝 Contributing
 
 1. Follow PSR coding standards for PHP
@@ -208,16 +135,13 @@ The system includes comprehensive coverage of UiTM campuses and faculties:
 4. Test all features before submitting
 5. Maintain responsive design principles
 
-## 📞 Support & Contact
+## 👨‍💻 Development Team
 
-For technical support or queries about the system:
-- Contact UiTM IT Department
-- Submit issues through the query system itself
-- Refer to UiTM official documentation
+Developed by:
 
-## 📄 License
-
-This project is developed for Universiti Teknologi MARA (UiTM) internal use. All rights reserved.
+Muhammad Faiz bin Nasir (2021172523)
+Iskandar Zulkarnain bin Yusof (2021119895)
+For: InQKA UiTM Shah Alam
 
 ---
 
