@@ -1,0 +1,142 @@
+# Database Configuration Files (SENSITIVE)
+config.php
+dbcon.php
+
+# Environment Configuration
+.env
+.env.local
+.env.production
+.env.staging
+
+# Database Dumps and Backups
+*.sql
+*.dump
+*.backup
+backup/
+dumps/
+
+# Log Files
+*.log
+error_log
+logs/
+php_errors.log
+
+# Temporary Files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Cache Files
+cache/
+*.cache
+
+# Session Files
+sessions/
+*.sess
+
+# Upload Directories (if any)
+uploads/
+files/
+media/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Composer Dependencies (if using Composer)
+vendor/composer/
+composer.lock
+composer.phar
+
+# Node.js Dependencies (if any)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Build Files
+build/
+dist/
+*.min.js
+*.min.css
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Sensitive Configuration
+*.key
+*.pem
+*.crt
+ssl/
+certificates/
+
+# Development Files
+test/
+tests/
+dev/
+development/
+
+# Documentation Build Files
+docs/_build/
+site/
+
+# Backup Files
+*.bak
+*.backup
+*.old
+
+# PHP Specific
+*.php~
+*.php.bak
+
+# Security Files
+.htaccess.backup
+robots.txt.backup
+
+# Personal Notes and Documentation
+notes.txt
+todo.txt
+README_LOCAL.md
+
+# Temporary SQL Files
+temp_*.sql
+test_*.sql
+
+# Error Reports
+error_reports/
+crash_logs/
+
+# Performance and Debugging
+profiler/
+debug/
+xdebug/
+
+# Local Development
+local/
+localhost/
+dev_*
+
+# User Specific Files
+user_config.php
+local_config.php
+personal_settings.php 
